@@ -8,7 +8,7 @@ import {
   
   export class UserLoginDto {
     @MinLength(3)
-    userName: string;
+    username: string;
   
     @IsString()
     @IsNotEmpty()
